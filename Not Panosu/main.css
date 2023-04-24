@@ -1,0 +1,68 @@
+*{
+   box-sizing: border-box;
+}
+body{
+   font-family: sans-serif;
+   background: url(./image/cork.png);
+   display: flex;
+   flex-wrap: wrap;
+   padding-top: 3rem;
+}
+
+.add{
+   border-radius: 10px;
+   position: fixed;
+   top: 1rem;
+   right: 1rem;
+   color: white;
+   background-color: rgb(0, 140, 255);
+   border: none;
+   padding: 0.4rem 1.2rem;
+   font-size: 1.5rem;
+   font-family: inherit;
+   font-weight: bold;
+   box-shadow: rgba(0, 0, 0, 0.3) 3px 6px 9px;
+   border-radius: 10px;
+   cursor: pointer;
+}
+.add:active{
+   transform: scale(0.98);
+}
+.note{
+   
+   background: white;
+   box-shadow: rgba(0, 0, 0, 0.6) 5px 5px 30px;
+   margin: 30px 20px;
+   height: 400px;
+   width: 400px;
+   border-radius: 5px;
+}
+.note .tools{
+   border-radius: 5px 5px 0px 0px;
+   background-color: rgb(0, 132, 255);
+   display: flex;
+   justify-content: flex-end;
+   padding: 0.5rem;
+}
+.note img{
+   width: 35px;
+   position: absolute;
+   padding: 5px;
+}
+.note .tools button{
+   border: none;
+   background-color: transparent;
+   color: white;
+}
+.note textarea{
+   outline: none;
+   font-family: inherit;
+   font-size: 1.2rem;
+   border: none;
+   height: 400px;
+   width: 100%;
+   padding: 20px;
+}
+.hidden{
+   display: none;
+}
